@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QuanLySanPham">
+  <DataContextMoniker Name="/QuanLySanPhamDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a326adc5-9db7-435b-a7dd-6a877511a977" absoluteBounds="0.875, 1.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QuanLySanPhamDataContext/CTL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="048154f4-8ee4-4a61-8604-f3eccf224710" absoluteBounds="0.89, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f09c621-e891-4807-8b29-ada8bd7892e2" absoluteBounds="5, 1.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QuanLySanPhamDataContext/PD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="21f9d8e5-c640-4143-8eb3-5d85982623a0" absoluteBounds="5.015, 2.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.875 : 2.25564697265625); (5 : 2.25564697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanLySanPhamDataContext/CTL/CTL_PD" />
+      <nodes>
+        <classShapeMoniker Id="a326adc5-9db7-435b-a7dd-6a877511a977" />
+        <classShapeMoniker Id="7f09c621-e891-4807-8b29-ada8bd7892e2" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
